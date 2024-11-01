@@ -94,7 +94,7 @@ def bert_gen(data_dir):
 
 
 if __name__ == "__main__":
-    batch_size = 24
+    batch_size = 32
     data_dir = "genshin"
     info = generate_config(data_dir=data_dir, batch_size=batch_size)
     print(info)
